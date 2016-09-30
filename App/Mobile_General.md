@@ -156,7 +156,6 @@ tba
 * camera/touchless
 * touchscreen
 * microphones
-
 * ambient light
 * proximity
 * acceleration

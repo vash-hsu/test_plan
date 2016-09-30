@@ -6,8 +6,8 @@ Index
 * [Activation](#activation)
 * [Setup](#setup)
 * [Major Features](#major features)
-* [Lesson Learned from Legacy Defect/Tracker](#lesson learned from legacy defect/tracker)
-* [Lesson Learned from Beta Customer/Forum](#lesson learned from beta customer/forum)
+* [Lesson Learned from Legacy Defect/Tracker](#lesson-learned-from-legacy-defecttracker)
+* [Lesson Learned from Beta Customer/Forum](#lesson-learned-from-beta-customer--forum--community)
 
 ---
 

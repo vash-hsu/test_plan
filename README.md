@@ -18,4 +18,4 @@
 
 ### Avast Cleanup
 * [Avast Cleanup walkthrough](App/AvastCleanup_walkthrough.md)
-* [Avast Cleanup Test Plan](App/AvastCleanup_testplan.md) (10+ minutes version)
+* [Avast Cleanup Test Plan](App/AvastCleanup_testplan.md) (60+ minutes version)
