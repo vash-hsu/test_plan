@@ -6,7 +6,7 @@ background knowhow:
 
 ---
 
-## 60+ Minutes Test Plan
+## 100+ Minutes Test Plan
 
 ### Requirement-based Feature Testing
 * TOFT: task oriented feature testing
@@ -64,7 +64,18 @@ Spec-based Functional Testing
 | FAST-015 | Manual | (3x2x1) | [AD] After installing recommanded App, its icon wiil be changed to highlighed on "MORE-BY-AVAST" without restarting. |
 | FAST-016 | Auto | (3x1x1) | [AD] All Apps' icons will change from grayed-out to highlighted after those 6 target apps are installed by "adb install". |
 | FAST-017 | Auto | (3x1x1) | [AD] All Apps' icons will change from highlighted to grayed-out after those 6 target apps are uninstalled by "adb uninstall". |
-| FAST-018 | Manual | (1x1x1) | [AD] All Apps' icons will change from highlighted to grayed-out after those 6 target apps are uninstalled by "adb uninstall". |
+| FAST-018 | Manual | (1x1x1) | [AD] After user click one of highlighted App, user will be leaded to main activity of target App. |
+| FAST-019 | Auto | (7x1x2) | [AD] Each clickable AD page link or recommanded Apps should be scanned/analyzed by safety and compliance purpose. (backend) |
+| FAST-020 | Auto | (1x1x1) | "Reset counters" makes statistic (size and days) back to zero. |
+| FAST-021 | Auto | (3x2x2) | [FAQs] Each topic is linkable for document on Internet. |
+| FAST-022 | Auto | (3x2x2) | [FAQs] Web page content should be cached in a short period of time. For example, when two different categories "Trending" and "Storage" link to the same page, the destination web content should be downloaded only once. |
+| FAST-023 | Manual | (3x1x1) | [FAQs] User can complete whole feedback transaction withing 5 steps and 2 minutes. |
+| FAST-024 | Manual | (3x1x1) | [FAQs] User can send feedback back to Dev team without leaving current App. |
+| FAST-025 | Auto | (7x1x3) | [FAQs] Email Bounce Attack should be detected and avoided. (backend) |
+| FAST-026 | Manual | (3x1x2) | User can move local files (beloing to certain groups) to one of most popular cloud storage services, hosted by 3rd party vendors. |
+| FAST-027 | Manual | (1x1x1) | (optional) User can define grouping rules by file extention names. |
+| FAST-028 | Auto | (1x1x1) | (optional) AUT can define grouping rules by true file type detection. |
+
 
 * FET: force error test
 
@@ -75,6 +86,9 @@ Spec-based Functional Testing
 | FET-003 | Auto | (3x1x3) | AUT works smoothly without crash when networking change between WiFi and Cellular iteratively. |
 | FET-004 | Manual | (3x1x3) | During AUT works on killing other Apps, Android OS keep stable when AUT is purged immediatly by demand. |
 | FET-005 | Manual | (3x1x3) | During AUT works on purging garbage files, AUT is able to be paused/resumed/killed by demand. The Apps, which own those garbage file, can start and work smoothly without error. |
+| FET-006 | Manual | (3x1x1) | advertisement page and frame will not be blank even though networking is broken/unstable. |
+| FET-007 | Auto | (3x1x1) | [FAQs] Default page/content will be provided when networking is not available. |
+
 
 
 ### Non-Functional Testing
