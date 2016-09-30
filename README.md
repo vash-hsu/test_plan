@@ -12,6 +12,8 @@
 
 ## App
 
+* [Mobile App General Guideline](App/Mobile_General.md)
+
 ---
 
 ### Avast Cleanup
