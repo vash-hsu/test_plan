@@ -1,13 +1,13 @@
 # Avast Cleanup Walkthrough
 
 Index
-* [Installation](#Installation)
-* [UnInstallation](#UnInstallation)
-* [Activation](#Activation)
-* [Setup](#Setup)
-* [Major Features](#Major Features)
-* [Lesson Learned from Legacy Defect/Tracker](# Lesson Learned from Legacy Defect/Tracker)
-* [Lesson Learned from Beta Customer/Forum](#Lesson Learned from Beta Customer/Forum)
+* [Installation](#installation)
+* [UnInstallation](#uninstallation)
+* [Activation](#activation)
+* [Setup](#setup)
+* [Major Features](#major features)
+* [Lesson Learned from Legacy Defect/Tracker](#lesson learned from legacy defect/tracker)
+* [Lesson Learned from Beta Customer/Forum](#lesson learned from beta customer/forum)
 
 ---
 
@@ -66,11 +66,11 @@ Index
 
 ## Major Features
 
-* [Advertisement](#AD)
-* [Cleaning](#CLEANING)
-* [Tools](#TOOLS)
-* [Media & Files](# MEDIA & FILES)
-* [Apps](#APPS)
+* [Advertisement](#ad)
+* [Cleaning](#clearning)
+* [Tools](#tools)
+* [Media & Files](#media & files)
+* [Apps](#apps)
 
 ### UI for Status update
 
@@ -86,7 +86,7 @@ Index
 #### Safe Clean
 
 Configuration
-* User can customize detail options in [Settings](#Setting), which is under [TOOLS](#TOOLS) tab
+* User can customize detail options in [Settings](#setting), which is under [TOOLS](#tools) tab
 
 User-Interaction ([animation](AvastCleanup/006-001.gif))
 * Action
@@ -171,7 +171,7 @@ User-Interaction
 
 
 #### Settings
-[Settings](#Setting)
+[Settings](#setting)
 
 ---
 
