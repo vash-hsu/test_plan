@@ -1,7 +1,7 @@
 # General Testing Guide for Mobile App
 
-*History:
- *Vash Hsu, 2016/09/30
+* History:
+ * Vash Hsu, 2016/09/30
 
 Index
 * [App](#app)
