@@ -2,11 +2,19 @@
 
 ---
 
+## General
+
+
+
+---
+
 ## Web Services
 
 ---
 
 ## Web Site
+
+* [Web Site General Guideline](Web/Web_General.md)
 
 ---
 
