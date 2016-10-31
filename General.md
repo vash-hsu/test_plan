@@ -1,12 +1,107 @@
 General Test Plan Guideline
 ---
 index
+
+* [Stackholder](#stackholder)
+* [Deliverables](#deliverables)
+* [Schedule](#schedule)
+* [Matrics](#matrics)
 * [Testing Type](#testing_type)
  * [Functional Tests](#functional_tests)
+---
 
+# Stackholder
+
+| Who | What | When | Why | How |
+|---|---|---|---|---|
+| PM,<br /> JM,<br /> QM,<br /> test team,<br /> All | Test Plan <br /> Traceability Matrix <br /> Test Result <br /> Test Status Report <br />Metrics | project kickoff <br /> sprint planning <br /> sprint end <br /> up-to-date | - | wiki <br /> gantt chart |
 
 ---
 
+# Deliverables
+
+| What | When | Who | Why | How (Which Meterial) |
+|---|---|---|---|---|
+| Test Plan | project kickoff, <br /> sprint planning | PM, JM, Test Team| - | wiki page or document file |
+| [Traceability Matrix](TraceabilityMatrix.md) | project kickoff, <br /> sprint planning | PM, JM, QM | - | table, tantt chart|
+| Test Result | release | JM | - | - |
+| Test Status Report | sprint end | QM, Test Team | - | - |
+| [Metrics](#matrics) | up-to-date | All | - | - |
+
+---
+
+# Schedule
+
+| task | sub-tasks | duration |
+|---|---|---|
+| Test Plan | to review requirement/spec <br /> initialize test estimation | - |
+| Recruit/Train test resources | - | - |
+| Prepare test environment | - | - |
+| Deploy SUT to test environment | - | - |
+| Functional Test | - | - |
+| Non-Functional Test | - | - |
+| Bug Fixing and Regression Test | - | - |
+| User Acceptance Test | - | - |
+| Final Defect Review Meeting and Candidate Build Preparation | - | - |
+| Deploy SUT to staging environment | - | - |
+| Performance Test | - | - |
+| Super Lab, beta/livefeed traffic Test | - | - |
+| Release to Production | - | - |
+
+---
+
+# Matrics
+
+* credit to http://www.getzephyr.com/resources/whitepapers/qa-metrics-value-testing-metrics-within-software-development
+
+
+## Project Level Matrics
+
+| - | formula |
+|---|---|
+| Requirement Coverage | number of requirements covered <br /> ** / ** total number of requirements <br /> ** * ** 100 |
+| Defect Distribution by Status and Phase (DD) | (total number of defects) <br /> ** / ** (function areas) <br /> ** * ** Status ** * ** Phase |
+| Defect open and close rate (DOCR) | defect found before delivery <br /> ** / ** ( (defect found before delivery) + (defect found after delivery) ) <br /> ** * ** 100 |
+| Execution Trends by Status and By User | ( Execution Status / Execution Rate ) <br /> ** * ** ( Functional Area / Iteration ) |  
+
+## Department Level Matrics
+
+| - | formula |
+|---|---|
+| Mean Time to Defect (MTTD) | (number of issues detected) / (total execution time) |
+| Mean Time to Repair (MTR)  | (number of issues fixed) / (total coding time)|
+| Defect Removal Efficiency (DRE) | (number of pre-release defects) <br />** / ** (number of total defects) <br /> ** * ** 100
+| Overall Testing Trend | MTTD, MTR, DRE |
+| Defect Trend | DD, DOCR, DRE |
+
+## Company Level Metrics
+
+| - | formula |
+|---|---|
+| Customer Reported Issue Percentage | total number of defects found by Customer <br /> ** / ** total number of product defects <br /> ** * ** 100  |
+| Mean Time between Failure | total time of software system operation <br /> ** / ** number of critical software system failures |
+
+---
+
+# Assumption and Risk
+
+## Assumption
+| what | by whom | possibility to break | plan B |
+|---|---|---|---|
+| - | -| - | - |
+| At beta stage, functionality correctness is much more important than performance | - | low | introduce more servers to share loading |
+| - | -| - | - |
+
+
+## Risk
+
+| Risk | Impact/Severity | Consequence | Mitigation Plan |
+|---|---|---|---|
+| server down | High | service downtime might break SLA <br /> | HA practice before rescue |
+
+## High Level FMEA
+
+---
 
 # Testing Type
 
@@ -19,7 +114,8 @@ index
 * FAST: functioan acceptance test
 * FET: force error test
 * TOFT: task-oriented functional test
-* SMOKE
+* SMOKE Test:
+
 
 #### common practice
 * for a regular test run, as less test cases/steps as possible
@@ -98,5 +194,5 @@ defect Density = [Number of Defects] / [Size, function points, lines of code]
 ```
 ##### Test Case
 * http://www.360doc.com/content/10/0826/16/1698198_48958195.shtml
-
 * https://dzone.com/articles/automated-performance-tests-in-jenkins-ci-environm
+* https://strongqa.com/qa-portal/testing-docs-templates/test-plan
